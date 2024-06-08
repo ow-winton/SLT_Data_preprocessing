@@ -18,7 +18,8 @@ if __name__ == '__main__':
     print(f"\033[91m  帧生成以及下采样结束 Done. \033[0m")
 
 # 跟文本配队
-    csv_file = r'.\save\how2sign_realigned_train.csv'
+    csv_file = r'.\save\how2sign_realigned_val.csv'
+
     output_csv = r'F:\Data_preprocessing\output_save\paired_text-frame_data.csv'
 
     output_data = pair.process_frames_and_text(frame_folder, csv_file)

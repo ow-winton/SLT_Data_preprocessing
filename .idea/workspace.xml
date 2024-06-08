@@ -4,26 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51245153-b46a-479a-8bb2-fbc9ac379a6e" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Data_preprocessing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypackage/__init_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypackage/csv2train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypackage/framedownsample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypackage/keypoint_fuse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mypackage/pair2text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one_key_generate-keypoint-fuse-version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one_key_generate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quicktest/quicktest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requireme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save/how2sign_realigned_train.csv" afterDir="false" />
+    <list default="true" id="51245153-b46a-479a-8bb2-fbc9ac379a6e" name="更改" comment="111">
+      <change afterPath="$PROJECT_DIR$/fuse_method/method.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_keypoint_Dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/how2sign_realigned_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/how2sign_realigned_val.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/对帧数据重新匹配和打包.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Data_preprocessing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data_preprocessing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypackage/csv2train.py" beforeDir="false" afterPath="$PROJECT_DIR$/mypackage/csv2train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypackage/framedownsample.py" beforeDir="false" afterPath="$PROJECT_DIR$/mypackage/framedownsample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypackage/keypoint_fuse.py" beforeDir="false" afterPath="$PROJECT_DIR$/mypackage/keypoint_fuse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mypackage/pair2text.py" beforeDir="false" afterPath="$PROJECT_DIR$/mypackage/pair2text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one_key_generate-keypoint-fuse-version.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_key_generate-keypoint-fuse-version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one_key_generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/one_key_generate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quicktest/quicktest.py" beforeDir="false" afterPath="$PROJECT_DIR$/quicktest/quicktest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requireme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requireme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/how2sign_realigned_train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/save/how2sign_realigned_train.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ow-winton&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ow-winton/SLT_Data_preprocessing.git&quot;,
+    &quot;accountId&quot;: &quot;9c0cc435-8201-4f79-8611-277fca5eaba2&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -52,9 +66,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.frame-downsample.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_keypoint_Dataset.executor&quot;: &quot;Run&quot;,
     &quot;Python.one_key_generate-keypoint-fuse-version.executor&quot;: &quot;Run&quot;,
     &quot;Python.one_key_generate.executor&quot;: &quot;Run&quot;,
     &quot;Python.quicktest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.对帧数据重新匹配和打包.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -64,6 +80,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -76,12 +93,13 @@
       <recent name="F:\Data_preprocessing\Mypackage" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Data_preprocessing\save" />
       <recent name="F:\Data_preprocessing\quicktest\testtest" />
       <recent name="F:\Data_preprocessing\quicktest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.one_key_generate-keypoint-fuse-version">
-    <configuration name="frame-downsample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.one_key_generate">
+    <configuration name="对帧数据重新匹配和打包" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data_preprocessing" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,12 +108,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/frame-downsample" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/frame-downsample/frame-downsample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/对帧数据重新匹配和打包.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="generate_keypoint_Dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data_preprocessing" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_keypoint_Dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,18 +216,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.one_key_generate" />
+        <item itemvalue="Python.对帧数据重新匹配和打包" />
+        <item itemvalue="Python.generate_keypoint_Dataset" />
         <item itemvalue="Python.one_key_generate-keypoint-fuse-version" />
         <item itemvalue="Python.quicktest" />
-        <item itemvalue="Python.one_key_generate" />
-        <item itemvalue="Python.frame-downsample" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
-        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
       </set>
     </attachedChunks>
   </component>
@@ -199,16 +241,43 @@
       <option name="presentableId" value="Default" />
       <updated>1717565426899</updated>
       <workItem from="1717565428034" duration="29051000" />
+      <workItem from="1717598495167" duration="206000" />
+      <workItem from="1717647209562" duration="18552000" />
+      <workItem from="1717812374936" duration="103000" />
+      <workItem from="1717812492734" duration="1284000" />
     </task>
+    <task id="LOCAL-00001" summary="111">
+      <option name="closed" value="true" />
+      <created>1717598587167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717598587167</updated>
+    </task>
+    <task id="LOCAL-00002" summary="111">
+      <option name="closed" value="true" />
+      <created>1717598594515</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717598594515</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Data_preprocessing$one_key_generate.coverage" NAME="one_key_generate 覆盖结果" MODIFIED="1717594343407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Data_preprocessing$one_key_generate_keypoint_fuse_version.coverage" NAME="one_key_generate-keypoint-fuse-version 覆盖结果" MODIFIED="1717598301217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_preprocessing$frame_downsample.coverage" NAME="frame-downsample 覆盖结果" MODIFIED="1717571766128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/frame-downsample" />
+    <SUITE FILE_PATH="coverage/Data_preprocessing$.coverage" NAME="对帧数据重新匹配和打包 覆盖结果" MODIFIED="1717665496222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Data_preprocessing$quicktest.coverage" NAME="quicktest 覆盖结果" MODIFIED="1717594692107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quicktest" />
+    <SUITE FILE_PATH="coverage/Data_preprocessing$generate_keypoint_Dataset.coverage" NAME="generate_keypoint_Dataset 覆盖结果" MODIFIED="1717659205530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Data_preprocessing$one_key_generate_keypoint_fuse_version.coverage" NAME="one_key_generate-keypoint-fuse-version 覆盖结果" MODIFIED="1717598301217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Data_preprocessing$one_key_generate.coverage" NAME="one_key_generate Coverage Results" MODIFIED="1717812818325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

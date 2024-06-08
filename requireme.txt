@@ -1,9 +1,3 @@
-os
-csv
-gzip
-pickle
-json
-cv2
-pandas
+opencv-python
 mediapipe
 opencv-python
